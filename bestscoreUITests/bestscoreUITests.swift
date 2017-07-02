@@ -2,8 +2,8 @@
 //  bestscoreUITests.swift
 //  bestscoreUITests
 //
-//  Created by Mary Brennan on 2016-10-27.
-//  Copyright © 2016 Mary Brennan. All rights reserved.
+//  Created by mbren on 2016-10-27.
+//  Copyright © 2016 mbren. All rights reserved.
 //
 
 import XCTest

@@ -82,17 +82,17 @@
 
 /* Begin PBXFileReference section */
 		BA903D4B1DC29F6200E83055 /* bestscore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bestscore.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA903D4E1DC29F6200E83055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA903D501DC29F6200E83055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA903D4E1DC29F6200E83055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BA903D501DC29F6200E83055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BA903D531DC29F6200E83055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA903D551DC29F6200E83055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA903D581DC29F6200E83055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA903D5A1DC29F6200E83055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA903D5F1DC29F6200E83055 /* bestscoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bestscoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA903D631DC29F6200E83055 /* bestscoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestscoreTests.swift; sourceTree = "<group>"; };
+		BA903D631DC29F6200E83055 /* bestscoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = bestscoreTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BA903D651DC29F6200E83055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA903D6A1DC29F6200E83055 /* bestscoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bestscoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA903D6E1DC29F6200E83055 /* bestscoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestscoreUITests.swift; sourceTree = "<group>"; };
+		BA903D6E1DC29F6200E83055 /* bestscoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = bestscoreUITests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BA903D701DC29F6200E83055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA903D731DC29F6200E83055 /* bestscore WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bestscore WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA903D791DC29F6200E83055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -100,9 +100,9 @@
 		BA903D7D1DC29F6200E83055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA903D821DC29F6300E83055 /* bestscore WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bestscore WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA903D881DC29F6300E83055 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		BA903D891DC29F6300E83055 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		BA903D8B1DC29F6300E83055 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		BA903D8D1DC29F6300E83055 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		BA903D891DC29F6300E83055 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = InterfaceController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BA903D8B1DC29F6300E83055 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ExtensionDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BA903D8D1DC29F6300E83055 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = NotificationController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BA903D8F1DC29F6300E83055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA903D911DC29F6300E83055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -325,7 +325,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "Mary Brennan";
+				ORGANIZATIONNAME = mbren;
 				TargetAttributes = {
 					BA903D4A1DC29F6200E83055 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -733,6 +733,7 @@
 				BA903D961DC29F6300E83055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA903D981DC29F6300E83055 /* Build configuration list for PBXNativeTarget "bestscore WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +742,7 @@
 				BA903D9A1DC29F6300E83055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA903D9C1DC29F6300E83055 /* Build configuration list for PBXNativeTarget "bestscore" */ = {
 			isa = XCConfigurationList;
@@ -749,6 +751,7 @@
 				BA903D9E1DC29F6300E83055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA903D9F1DC29F6300E83055 /* Build configuration list for PBXNativeTarget "bestscoreTests" */ = {
 			isa = XCConfigurationList;
@@ -757,6 +760,7 @@
 				BA903DA11DC29F6300E83055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA903DA21DC29F6300E83055 /* Build configuration list for PBXNativeTarget "bestscoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -765,6 +769,7 @@
 				BA903DA41DC29F6300E83055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

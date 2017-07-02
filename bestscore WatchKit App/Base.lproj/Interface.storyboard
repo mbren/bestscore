@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9532" systemVersion="14F2009" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="bestscore_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Tim" id="DQO-SW-E27"/>
+                        <button width="1" alignment="left" title="0" id="T6I-LV-NH3">
+                            <connections>
+                                <action selector="pOneButtonPressed" destination="AgC-eL-Hgc" id="Ie5-8p-bTq"/>
+                            </connections>
+                        </button>
+                        <label alignment="left" text="Mary" id="fxi-8l-xoB"/>
+                        <button width="1" alignment="left" title="0" id="FpQ-kr-5KO">
+                            <connections>
+                                <action selector="pTwoButtonPressed" destination="AgC-eL-Hgc" id="Cfk-cS-5rt"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="New Game" id="WsT-cd-TOw">
+                            <connections>
+                                <action selector="gameReset" destination="AgC-eL-Hgc" id="H3c-D5-BZb"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="playerOneName" destination="DQO-SW-E27" id="HwP-jo-6xf"/>
+                        <outlet property="playerOneScore" destination="T6I-LV-NH3" id="h7b-nA-c8n"/>
+                        <outlet property="playerTwoName" destination="fxi-8l-xoB" id="pos-u0-BUe"/>
+                        <outlet property="playerTwoScore" destination="FpQ-kr-5KO" id="wDx-Im-xfU"/>
+                        <outlet property="resetButton" destination="WsT-cd-TOw" id="GKA-bB-QGI"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
-        </scene>
-        <!--Static Notification Interface Controller-->
-        <scene sceneID="AEw-b0-oYE">
-            <objects>
-                <notificationController id="YCC-NB-fut">
-                    <items>
-                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
-                    </items>
-                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
-                    <connections>
-                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
-                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
-                    </connections>
-                </notificationController>
-            </objects>
-            <point key="canvasLocation" x="220" y="643"/>
-        </scene>
-        <!--Notification Controller-->
-        <scene sceneID="ZPc-GJ-vnh">
-            <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
-            </objects>
-            <point key="canvasLocation" x="468" y="643"/>
         </scene>
     </scenes>
 </document>
